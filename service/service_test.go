@@ -10,6 +10,7 @@ import (
 
 func TestGetUser(t *testing.T) {
 	var testID uint = 1234
+	
 	testUser := model.User{Name: "Abraham"}
 
 	mockRepo := &repository.MockRepository{}
